@@ -1,27 +1,45 @@
-# 100-110: Interconnecting Cisco Networking Devices
+# Cisco 100-110 Exam: Interconnecting Cisco Networking Devices
 
-[![Track: Routing & Switching](https://img.shields.io/badge/Track-Routing%20%26%20Switching-049fd9?style=for-the-badge&logo=cisco&logoColor=white)](https://learningnetwork.cisco.com/)
-[![Level: Entry / Associate](https://img.shields.io/badge/Level-Entry%20%2F%20Associate-1BA0D7?style=for-the-badge)](https://learningnetwork.cisco.com/)
-[![Status: Active Reference](https://img.shields.io/badge/Status-Active%20Reference-28a745?style=for-the-badge)](https://learningnetwork.cisco.com/)
-[![Cisco Learning Network](https://img.shields.io/badge/Community-Cisco%20Learning%20Network-blue?style=for-the-badge&logo=cisco)](https://learningnetwork.cisco.com/)
+[![Cisco Certified](https://img.shields.io/badge/Cisco_Certified-100--110_Exam-049fd9?style=for-the-badge&logo=cisco&logoColor=white)](https://learningnetwork.cisco.com/)
+[![Track](https://img.shields.io/badge/Track-Routing%20%26%20Switching-049fd9?style=for-the-badge&logo=cisco)](https://learningnetwork.cisco.com/)
+[![Level](https://img.shields.io/badge/Level-Entry%20%2F%20Associate-1BA0D7?style=for-the-badge)](https://learningnetwork.cisco.com/)
+[![Duration](https://img.shields.io/badge/Duration-90_Minutes-orange?style=for-the-badge)](https://learningnetwork.cisco.com/)
+[![Score](https://img.shields.io/badge/Passing_Score-~825%20%2F%201000-blue?style=for-the-badge)](https://learningnetwork.cisco.com/)
+[![Practice Partner](https://img.shields.io/badge/Practice_Partner-CertsClub_(20%25_Off_Code:_club20)-28a745?style=for-the-badge&logo=shield)](https://www.certsclub.com/cisco/)
 
 ---
 
-### Executive Overview
+## 1. Exam Overview & Candidate Profile
 
-The **100-110: Interconnecting Cisco Networking Devices** examination validates the foundational competencies required of entry-level network technicians to install, configure, operate, and troubleshoot small enterprise branch networks. The operational scope covers fundamental OSI and TCP/IP networking models, IPv4/IPv6 address architectures and VLSM subnet calculation, Layer 2 Cisco Catalyst switchport configurations (VLANs, 802.1Q trunks, port security), basic inter-VLAN routing (Router-on-a-Stick), distance-vector routing dynamics, basic IPv4 ACL filtering, and essential IP infrastructure services including DHCP, DNS, NAT/PAT, and NTP.
+The **Cisco 100-110 Exam (Interconnecting Cisco Networking Devices)** validates a candidate's foundational competencies required to install, configure, operate, and troubleshoot small enterprise branch networks. The operational scope covers fundamental OSI and TCP/IP networking models, IPv4/IPv6 address architectures and VLSM subnet calculation, Layer 2 Cisco Catalyst switchport configurations (VLANs, 802.1Q trunks, port security), basic inter-VLAN routing (Router-on-a-Stick), distance-vector routing dynamics, basic IPv4 ACL filtering, and essential IP infrastructure services including DHCP, DNS, NAT/PAT, and NTP.
 
-#### Target Candidate Profiles & Roles
+### Target Candidate Profile & Roles
 * **Junior Network Support Technician**
 * **Network Operations Center (NOC) Tier-1 Analyst**
 * **Field Service Technician (Enterprise & ISP Access)**
 * **Help Desk / Desktop Support Specialist transitioning to Infrastructure**
+* **Prerequisites:** No formal prerequisites required. Hands-on experience with basic network cabling, IP addressing, and command-line interfaces is recommended.
 
 ---
 
-## 1. Exam Blueprint & Domain Weightings
+## 2. Key Exam Specifications
 
-| Domain ID | Blueprint Domain Title | Target Weighting | Key Technical Objectives Covered |
+| Parameter | Official Specification |
+| :--- | :--- |
+| **Exam Code** | 100-110 |
+| **Exam Name** | Interconnecting Cisco Networking Devices |
+| **Duration** | 90 Minutes |
+| **Passing Score** | ~825 / 1000 (Scaled dynamic calibration) |
+| **Question Count** | 50–60 questions |
+| **Question Formats** | Multiple Choice (single/multiple select), Drag-and-Drop, Simlets (CLI simulation) |
+| **Delivery Vendor** | Pearson VUE / OnVUE Online Remote Proctoring |
+| **Practice Test Partner** | **[100-110 Practice Test](https://www.certsclub.com/cisco/)** (Coupon: `club20` for 20% off) |
+
+---
+
+## 3. Skills Measured & Blueprint Domain Weighting
+
+| Domain Code | Domain Title | Exam Weight | Key Technical Objectives Covered |
 | :--- | :--- | :---: | :--- |
 | **1.0** | **Network Fundamentals** | **20%** | OSI vs. TCP/IP model comparison, cabling media (UTP Cat5e/6, single-mode/multimode fiber), IPv4 addressing & VLSM, IPv6 address types (Global Unicast, Unique Local, Link-Local), TCP vs. UDP operational mechanics. |
 | **2.0** | **LAN Switching Fundamentals** | **26%** | Ethernet frame structure, MAC address learning and aging, frame flooding, switchport access/trunk modes, IEEE 802.1Q encapsulation, native VLAN configuration, Spanning Tree Protocol (STP) loop prevention basics, port security violation modes. |
@@ -31,17 +49,7 @@ The **100-110: Interconnecting Cisco Networking Devices** examination validates 
 
 ---
 
-## 2. Practice Material & Testing Engine
-
-Access verified preparation materials and scenario testing modules directly at:
-
-### **[100-110](https://www.certsclub.com/cisco/)**
-
-*(Use code `club20` at checkout for a 20% discount on all Cisco certification practice tests and study guides).*
-
----
-
-## 3. 10 Scenario-Based Practice Questions
+## 4. Scenario-Based Technical Practice Questions
 
 ### Scenario 1: Switch MAC Address Table Exhaustion & Security Violation
 **Topology Background:**  
@@ -323,21 +331,34 @@ The IEEE EUI-64 format converts a 48-bit MAC address into a 64-bit interface ide
 
 ---
 
-## 4. Official Cisco Documentation & Reference Links
+## 5. Recommended Study Resources & Official Documentation
 
-* [Cisco Learning Network: Exam Topics & Community](https://learningnetwork.cisco.com/)
-* [Cisco IOS Software Configuration Guide (15.x / XE)](https://www.cisco.com/c/en/us/support/index.html)
+* [Cisco Learning Network: 100-110 Exam Topics](https://learningnetwork.cisco.com/)
+* [Cisco IOS Software Configuration Guides](https://www.cisco.com/c/en/us/support/index.html)
+* [100-110 Practice Test - CertsClub](https://www.certsclub.com/cisco/) (Use coupon `club20` for 20% off)
 * [RFC 3022: Traditional IP Network Address Translator (NAT / PAT)](https://datatracker.ietf.org/doc/html/rfc3022)
 * [RFC 4291: IP Version 6 Addressing Architecture (EUI-64)](https://datatracker.ietf.org/doc/html/rfc4291)
-* [Pearson VUE Cisco Certification Testing Portal](https://home.pearsonvue.com/cisco)
+* [Pearson VUE Cisco Certification Portal](https://home.pearsonvue.com/cisco)
 
 ---
 
-## 5. Community Discussions & Contributions
+## 6. SEO Keywords & Search Index Topics
+
+```
+100-110, 100-110 exam, 100-110 practice test, 100-110 study guide, cisco 100-110,
+cisco 100-110 exam questions, cisco icnd1, interconnecting cisco networking devices,
+cisco certification practice test, certsclub 100-110, cisco ccna prep,
+cisco switchport port-security, vlsm subnetting, router-on-a-stick, 802.1q trunking,
+nat overload pat, dhcp helper-address, cisco password recovery 0x2142, eui-64 ipv6
+```
+
+---
+
+## 7. Community Discussions & Contributions
 
 * **Questions & Case Discussions:** Open a discussion in [GitHub Discussions](../../discussions) to review protocol behavior, topology designs, or CLI anomalies.
 * **Issue Reporting:** If you detect a typo or errata in any scenario, submit a ticket via [GitHub Issues](../../issues).
-* **Lab Topology Submissions:** Pull requests containing Cisco Packet Tracer (`.pkt`), Cisco Modeling Labs (`.yaml`), or EVE-NG topologies matching these scenarios are encouraged. Please ensure configs adhere to standard RFC IP allocations (RFC 1918 / RFC 5737 / RFC 3849).
+* **Lab Topology Submissions:** Pull requests containing Cisco Packet Tracer (`.pkt`), Cisco Modeling Labs (`.yaml`), or EVE-NG topologies matching these scenarios are encouraged.
 
 ---
 *Maintained by the Cisco Certified Curriculum Community. Contributions and pull requests are welcomed.*
